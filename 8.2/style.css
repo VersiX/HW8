@@ -1,0 +1,87 @@
+@font-face {
+    font-family: NeueHansKendrick;
+    src: url(NeueHansKendrick-Regular.otf);
+}
+
+
+*{
+    font-family: NeueHansKendrick;
+}
+
+body{
+    background-color: #e2e7ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    margin: 91px;
+}
+
+.row_container{
+    display: flex;
+    justify-content: center;
+}
+
+.row_container>*{
+    margin: 10px;
+}
+
+.row66{
+    position: relative;
+    width: 740px;
+    height: 540px;
+}
+
+.row33{
+    background-color: white;
+    width: 360px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user_icon{
+    align-self: flex-start;
+    margin: 25px;
+}
+
+.col_text>*{
+    margin: 26px;
+}
+
+.row66 .col_text{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.row66 .title{
+    font-size: 20px;
+    color: white;
+}
+
+.date{
+    color: #adaca9;
+    font-size: 9px;
+}
+
+.row33 .title{
+    font-size: 16px;
+}
+
+footer{
+    text-align: center;
+    color: #99a5b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>div{
+    margin: 14px;
+}
+
+ 
